@@ -3,7 +3,7 @@ import { check, sleep } from 'k6';
 import { b64encode } from 'k6/encoding';
 
 // Constants
-const BASE_URL = 'http://34.31.147.175:3002/api/v1';
+const BASE_URL = `http://${__ENV.target}/api/v1`;
 const defaultHeaders = { 'Content-Type': 'application/json' };
 
 export const options = {
