@@ -35,8 +35,8 @@ lerna-debug.log*
 
 /upload
 
-*.env.local
-*.env.prod
+#*.env.local
+#*.env.prod
 
 db
 db-shm
